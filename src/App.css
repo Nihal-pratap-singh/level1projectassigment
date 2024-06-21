@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure the app takes full viewport height */
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px; /* Set a fixed width for better alignment */
+}
+
+div {
+  margin-bottom: 10px;
+  width: 100%; /* Ensure the divs take full form width */
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: calc(100% - 20px); /* Adjust input width */
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5600f7;
+  color: rgb(3, 3, 3);
+  cursor: pointer;
+  margin-top: 10px; /* Add margin for better spacing */
+}
+
+button:hover {
+  background-color: #42b9e9;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  text-align: left; /* Ensure error messages are left-aligned */
+}
